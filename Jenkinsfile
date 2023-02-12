@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages {
     stage('Build') {
      
         sh 'echo "This is my first step"'
@@ -13,4 +14,5 @@ pipeline {
       sh 'echo "This is my Deploy step"'
 
   }
+    }
 }
