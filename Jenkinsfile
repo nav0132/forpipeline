@@ -1,6 +1,26 @@
 node {
+  stage ('git Checkout') {
+    echo "Checkout"
+
+  }
+  
   stage ('build') {
-    echo "enforce a clear workspace:"
+    echo "building"
+
+  }
+  
+  stage ('Publish containers') {
+    echo "Publish"
+
+  }
+  
+  stage ('test') {
+    echo "testing"
+
+  }
+  
+    stage ('deploy') {
+    echo "deploying"
 
   }
 }
