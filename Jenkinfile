@@ -1,4 +1,5 @@
-node {
+pipeline {
+    agen any
     stage('Build') {
      
         sh 'echo "This is my first step"'
@@ -12,4 +13,5 @@ node {
       sh 'echo "This is my Deploy step"'
 
   }
+}
 }
