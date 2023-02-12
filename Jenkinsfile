@@ -1,5 +1,5 @@
 pipeline {
-    agen any
+    agent any
     stage('Build') {
      
         sh 'echo "This is my first step"'
