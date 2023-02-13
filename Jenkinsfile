@@ -23,4 +23,9 @@ node {
     echo "deploying"
 
   }
+  
+    stage ('testing') {
+    echo "testing"
+
+  }
 }
